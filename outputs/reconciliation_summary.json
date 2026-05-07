@@ -1,0 +1,16 @@
+{
+  "total_transactions": 897,
+  "matched_count": 853,
+  "unmatched_count": 0,
+  "duplicate_count": 88,
+  "orphan_refund_count": 0,
+  "orphan_settlement_count": 10,
+  "delayed_settlement_count": 32,
+  "cross_month_delayed_count": 32,
+  "rounding_drift_count": 44,
+  "reconciliation_rate": 0.9509476031215162,
+  "total_amount_drift": -8346.720000000008,
+  "aggregate_controls_passed": 750,
+  "aggregate_controls_failed": 93,
+  "generated_at": "2026-05-07T09:43:35.231896Z"
+}
