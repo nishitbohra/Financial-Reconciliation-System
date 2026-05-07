@@ -30,30 +30,11 @@ matching settlement. When the totals do not balance, the company needs to know:
 Architecture
 ------------
 
-  [Generators]
-       |
-       v
-  [Anomaly Injector]
-       |
-       v
-  [Normalize]
-       |
-       v
-  [Reconciliation Engine (DuckDB SQL)]
-       |-- Exact Match
-       |-- Tolerance Match (+-0.05 INR)
-       |-- Merchant Ref Fallback (+-0.10 INR)
-       |-- Unmatched Transactions
-       |-- Orphan Settlements
-       v
-  [Classification Engine]
-       |
-       v
-  [Aggregate Controls]
-       |
-       v
-  [Report Builder + Streamlit Dashboard]
-
+  <p align="center">
+  <img src="Architecture Diagram.png" width="800"/>
+  <br>
+  <em>The Propsed Architecture</em>
+</p>
 
 Module Reference
 ----------------
